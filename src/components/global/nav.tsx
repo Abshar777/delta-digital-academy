@@ -78,12 +78,12 @@ const Nav = () => {
 
         {/* Mobile Menu Button */}
         <div className="xl:hidden block">
-          <button className="nav-hamburger flex flex-col gap-[5px] size-12 bg-background-4 dark:bg-background-6 rounded-full items-center justify-center cursor-pointer">
-            <span className="sr-only">Menu</span>
-            <span className="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1" />
-            <span className="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1" />
-            <span className="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1" />
-          </button>
+        <a
+            href="signup-page-01.html"
+            className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white"
+          >
+            <span>Get started</span>
+          </a>
         </div>
       </div>
 

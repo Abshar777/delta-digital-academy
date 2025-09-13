@@ -15,7 +15,7 @@ const Indexlayout = ({ children }: { children: React.ReactNode }) => {
   if (!mounted) return null;
   return (
     <>
-      <Toaster position="top-center" />
+      <Toaster position="bottom-right" richColors/>
       <Nav />
       <main suppressHydrationWarning>{children}</main>
       <Footer />

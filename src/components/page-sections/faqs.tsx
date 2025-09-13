@@ -4,26 +4,49 @@ type FaqItem = {
   }
   
   const faqs: FaqItem[] = [
+
     {
-      question: "What is the primary role of a business agency?",
+      question: "What kinds of courses does Delta Blockchain Academy offer?",
       answer:
-        "When collaborating with a business agency, you can generally expect an extensive array of services designed to not only support your current operations but also to foster growth and innovation within your business. These services often include strategic planning, marketing solutions, financial consulting, and operational improvements.",
+        "We offer beginner to intermediate courses in crypto, blockchain, Web3 & DeFi. Beginner-level (Crypto Genesis) is for newcomers; intermediate-level (Crypto Mastery) includes more advanced topics like yield farming, project analysis, etc.",
     },
     {
-      question: "What kinds of services should I anticipate from a business agency?",
+      question: "How long are the courses?",
       answer:
-        "When collaborating with a business agency, you can generally expect an extensive array of services designed to not only support your current operations but also to foster growth and innovation within your business. These services often include strategic planning, marketing solutions, financial consulting, and operational improvements.",
+        "Courses range in hours: for example, Crypto Genesis ~10 hours across 24 lessons, Crypto Mastery ~50 hours across 32 lessons.",
     },
     {
-      question: "How often should I consider updating my website?",
+      question: "What is the cost of the courses?",
       answer:
-        "When collaborating with a business agency, you can generally expect an extensive array of services designed to not only support your current operations but also to foster growth and innovation within your business. These services often include strategic planning, marketing solutions, financial consulting, and operational improvements.",
+        "Pricing is given in AED. For instance, Crypto Genesis ~2000 AED (with discount), Crypto Mastery ~5000 AED (with discount).",
     },
     {
-      question: "How often is it recommended to refresh my website?",
+      question: "Do you provide certification?",
       answer:
-        "When collaborating with a business agency, you can generally expect an extensive array of services designed to not only support your current operations but also to foster growth and innovation within your business. These services often include strategic planning, marketing solutions, financial consulting, and operational improvements.",
+        "Yes – there is a blockchain certification that is stored on-chain to verify your credentials.",
     },
+    {
+      question: "What is the difference between beginner and intermediate level?",
+      answer:
+        "Beginner level focuses on fundamentals: blockchain basics, how cryptocurrencies work, wallets, basic chart patterns. Intermediate adds technical and project analysis, yield farming, market making, etc.",
+    },
+    {
+      question: "How often is course content updated?",
+      answer:
+        "Content is advertised as “real-time updates” or evolving with the market. For specifics (how often, for which modules), you may contact support.",
+    },
+
+    {
+      question: "How do I enroll and what payment methods are accepted?",
+      answer:
+        "The enrollment process is via the “Enroll Now” links. Payment is presumably in AED; exactly which payment methods (credit card, bank transfer, crypto) are accepted should be confirmed.",
+    },
+    {
+      question: "Is there any hands-on / practical component (labs, projects)?",
+      answer:
+        "The site shows lesson topics, but does not clearly list practical labs or personal project work. You may ask whether projects or internships are included.",
+    },
+   
   ]
   
   export const Faqs = () => (

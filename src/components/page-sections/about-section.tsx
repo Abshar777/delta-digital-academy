@@ -1,14 +1,16 @@
 import React from "react";
 
 const features = [
-  // - Bitcoin (BTC): Digital gold, store of value
-// - Ethereum (ETH): Smart contract platform
-// - Solana (SOL): High-performance blockchain
-// - Cardano (ADA): Research-driven approach
-  "Bitcoin (BTC): Digital gold, store of value",
-  "Ethereum (ETH): Smart contract platform",
-  "Solana (SOL): High-performance blockchain",
-  "Cardano (ADA): Research-driven approach",
+  "Comprehensive Learning Path",
+  "Practical Trading Skills",
+  "Blockchain & Crypto Fundamentals",
+  "Advanced Market Insights",
+  "DeFi & Earning Opportunities",
+  "Money Management & Psychology",
+  "Expert-Crafted Curriculum",
+  "Flexible & Affordable Plans",
+  "Career-Oriented Guidance",
+  "Continuous Support"
 ];
 
 const avatars = [
@@ -31,15 +33,19 @@ const Section = () => {
             data-delay="0.1"
             className="max-w-[750px] mx-auto max-sm:max-w-[320px]"
           >
-            Crypto Fundamentals
+            Why Choose Us
           </h2>
           <p
             data-ns-animate
             data-delay="0.2"
-            className="max-w-[850px] max-sm:max-w-[300px]"
+            className="max-w-[850px] mx-auto max-sm:max-w-[300px]"
           >
-            A digital or virtual currency that uses cryptography for security
-            and operates on a technology called blockchain.
+            We provide cutting-edge crypto education designed to equip learners
+            with the latest insights in blockchain, forex, and digital assets.
+            Our expert-led programs combine real-world strategies, hands-on
+            training, and globally recognized achievements to ensure every
+            student is prepared for success in the fast-evolving financial
+            landscape.
           </p>
         </div>
 
@@ -63,7 +69,7 @@ const Section = () => {
             <div className="max-sm:py-8 py-14 px-6 max-sm:px-5 md:px-11 grid max-sm:grid-cols-1 grid-cols-2 max-sm:gap-10 gap-5">
               <div className="max-w-[500px] about-content">
                 <h5 className="text-accent mb-8 max-sm:text-heading-6">
-                Popular Cryptocurrencies
+                What We Provide for Students
                 </h5>
                 <a
                   href="#"
@@ -74,7 +80,7 @@ const Section = () => {
               </div>
 
               <div>
-                <ul className="max-sm:space-y-3 space-y-5">
+                <ul className="max-sm:space-y-3 grid grid-cols-2 gap-2 space-y-5">
                   {features.map((feature, index) => (
                     <li
                       key={index}
@@ -115,7 +121,7 @@ const Section = () => {
             data-delay="0.4"
             className="max-md:col-span-12 col-span-6 bg-white dark:bg-background-5 rounded-[20px]"
           >
-            <div className="flex items-center bg-secondary dark:bg-background-9 rounded-[12px] p-5 sm:p-8">
+            <div className="flex items-center bg-secondary dark:bg-background-9 rounded-[12px] p-4 sm:p-8">
               <div className="flex flex-col gap-4 flex-2/3">
                 <div className="flex -space-x-2">
                   {avatars.map((avatar, index) => (
@@ -133,14 +139,14 @@ const Section = () => {
                   </div>
                 </div>
                 <p className="text-accent font-medium">
-                  Gather worldwide user <br className="hidden sm:block" />
-                  data for the current
+                  Popular Cryptocurrencies<br className="hidden sm:block" />
+                 
                 </p>
               </div>
 
-              <div className="flex-1/3 flex flex-col items-center justify-end ml-auto">
+              <div className="flex-1/3 md:flex hidden  flex-col items-center justify-end ml-auto">
                 {/* Circular progress */}
-                <div className="relative w-fit">
+                <div className="relative  w-fit">
                   <svg
                     width="114"
                     height="113"
@@ -159,24 +165,25 @@ const Section = () => {
                     />
                   </svg>
                   <h6 className="flex items-center text-accent absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <span>95</span>
-                    <span className="font-inherit"> % </span>
+                    <span>1k</span>
+                    <span className="font-inherit"> +</span>
                   </h6>
                 </div>
                 <p className="text-secondary bg-ns-green rounded-[12px] py-2 px-4 md:px-4 lg:px-6 -mt-6 relative z-10">
-                  <span>Active User</span>
+                  <span>Students</span>
                 </p>
               </div>
             </div>
 
             <div className="text-center max-w-[375px] mx-auto max-lg:py-6 max-lg:text-left max-lg:px-6 py-8">
               <h5 className="mb-2 max-lg:text-heading-6">
-                An intuitive website creation tool.
+                In-Depth Crypto Insights
               </h5>
               <p className="max-lg:text-tagline-2">
-                An intuitive website creation tool is designed to simplify the
-                process of building a website, making it accessible even for
-                users
+                Gain a deep understanding of cryptocurrencies, tokenomics, and
+                blockchain applications with our comprehensive learning
+                approach. Through real-world case studies, expert analysis, and
+                hands-on examples,
               </p>
             </div>
           </div>
@@ -188,27 +195,51 @@ const Section = () => {
             className="max-md:col-span-12 col-span-6 bg-white dark:bg-background-5 rounded-[20px]"
           >
             <div className="bg-secondary dark:bg-background-9 rounded-xl p-5 sm:p-8">
-              <div className="flex items-center gap-4 mb-[46px]">
-                <figure className="inline-block size-16 rounded-full ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden relative">
+              <div className="flex  justify-center items-center gap-4 my-[1.1rem]">
+                <figure className="inline-block lg:size-24 size-16 rounded-full ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden relative">
+                  <img src="/our/gw.png" alt="avatar" className="max-w-full" />
                   <img
                     src="/our/gw.png"
-                    alt="avatar"
-                    className="max-w-full"
-                  />
-                  <img
-                     src="/our/gw.png"
                     alt="avatar"
                     className="absolute top-0 left-0 -z-10"
                   />
                 </figure>
-                <div>
-                  <h5 className="text-accent max-sm:text-heading-6">
-                   Guinness World Record Holder
-                  </h5>
-                  <p className="text-accent/60 max-sm:text-tagline-2">
-                    Cryptocurrency Expert
-                  </p>
-                </div>
+                <figure className="inline-block lg:size-24 size-16 rounded-full ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden relative">
+                  <img
+                    src="/our/conclave.png"
+                    alt="avatar"
+                    className="max-w-full"
+                  />
+                  <img
+                    src="/our/conclave.png"
+                    alt="avatar"
+                    className="absolute top-0 left-0 -z-10"
+                  />
+                </figure>
+                <figure className="inline-block lg:size-24 size-16 rounded-full ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden relative">
+                  <img
+                    src="/our/forexT.png"
+                    alt="avatar"
+                    className="max-w-full"
+                  />
+                  <img
+                    src="/our/forexT.png"
+                    alt="avatar"
+                    className="absolute top-0 left-0 -z-10"
+                  />
+                </figure>
+                <figure className="inline-block lg:size-24 size-16 rounded-full ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden relative">
+                  <img
+                    src="/our/profex.png"
+                    alt="avatar"
+                    className="max-w-full"
+                  />
+                  <img
+                    src="/our/profex.png"
+                    alt="avatar"
+                    className="absolute top-0 left-0 -z-10"
+                  />
+                </figure>
               </div>
 
               {/* <div className="flex items-center justify-between">
@@ -227,12 +258,14 @@ const Section = () => {
 
             <div className="text-center max-w-[375px] mx-auto max-lg:py-6 max-lg:text-left max-lg:px-6 py-8">
               <h5 className="mb-2 max-lg:text-heading-6">
-                Guinness World Record Holder
+                Achievements & Recognition
               </h5>
               <p className="px-1 sm:px-0 max-lg:text-tagline-2">
-                Content creation powered by artificial intelligence (AI) is
-                revolutionizing the way digital content is produced, curated,
-                and delivered.
+                Blockchain Institute, a Guinness Record Holder for Most
+                Nationalities in a Trading Lesson, is a global leader in
+                blockchain training. Awarded Best Forex Academy 2024 at PROFX
+                Dubai and Best Crypto & Blockchain Educator 2024 at Money
+                Conclave.
               </p>
             </div>
           </div>

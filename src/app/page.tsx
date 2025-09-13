@@ -11,6 +11,8 @@ import  Testimonials  from "@/components/page-sections/testimonials";
 import { TimeLine } from "@/components/page-sections/timeLine";
 import { Blog } from "@/components/page-sections/blog";
 import { Cta } from "@/components/page-sections/cta";
+import Pricing from "@/components/page-sections/pricing";
+import ContactSection from "@/components/page-sections/contactUs";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -22,12 +24,14 @@ export default function Home() {
  <>
  <Hero/>
  <AboutSection/>
- <HowItWorks/>
+ {/* <HowItWorks/> */}
  <Service/>
+ <Pricing/>
+ {/* <TimeLine/> */}
  <Faqs/>
  <Testimonials/>
- <TimeLine/>
- <Blog/>
+ <ContactSection/>
+ 
  {/* <Cta/> */}
  </>
   );

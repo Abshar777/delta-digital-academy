@@ -60,7 +60,7 @@ const Hero = () => {
     },
     {
       id: 8,
-      img: "/our/12.svg",
+      img: "/our/10.svg",
       alt: "Hero shape 8",
       className:
         "md:block hidden w-[50px] h-[50px] absolute left-[0%] top-[32%] md:left-[3%] md:top-[42%] xl:left-[8%] xl:top-[42%] rounded-br-none",
@@ -139,13 +139,13 @@ const Hero = () => {
             data-delay="0.4"
             className="opacity-0 flex flex-col md:flex-row w-full md:w-auto justify-center items-center gap-y-4 gap-x-3 mx-auto md:mx-0"
           >
-            <input
+            {/* <input
               id="cta-email"
               type="email"
               placeholder="Enter your email"
               autoComplete="email"
               className="bg-background-1 dark:bg-background-6 h-12 w-[90%] md:max-w-[345px] md:min-w-[345px] placeholder:text-secondary/40 dark:placeholder:text-white/40 text-secondary/60 dark:text-accent/60 text-tagline-1 focus:outline-none font-normal border border-stroke-3 dark:border-stroke-7 dark:shadow-1 rounded-[360px] dark:bg-dark-200 focus:border-primary-500 dark:focus:border-primary-500 px-[18px] py-3 duration-300 transition-all outline-none placeholder:font-normal"
-            />
+            /> */}
 
             <button
               type="submit"

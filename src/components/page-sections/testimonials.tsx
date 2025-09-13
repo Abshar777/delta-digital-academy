@@ -1,44 +1,73 @@
 import React from "react";
 
+
+// export const testimonials = [
+//   {
+//       name: "Sachin",
+//       role: "student",
+//       text: "Good support and guidance. Truly appreciated the efforts and dedication.",
+//   },
+//   {
+//       name: "Hussain",
+//       role: "student",
+//       text: "Mr. Fawas explained crypto basics and strategies so clearly. Helped me understand market news, valuations, and investments with ease.",
+//   },
+//   {
+//       name: "Teja",
+//       role: "student",
+//       text: "Delta Trading Team’s course was exceptional. Clear teaching, practical strategies, and strong support boosted my trading confidence. Highly recommended!",
+//   },
+
+
+// ];
+
 const testimonials = [
   {
     id: 1,
-    avatar: "images/avatar/avatar-7.png",
-    name: "John Smith",
-    title: "Lorem Ipsum",
+    avatar: "/our/image.png",
+    name: "Sachin",
+    title: "student",
     review:
-      "I built a fully functional app for my business in a weekend—without a developer.",
+      "Good support and guidance. Truly appreciated the efforts and dedication.",
   },
   {
     id: 2,
-    avatar: "images/avatar/avatar-1.png",
-    name: "Adam Smith",
-    title: "CEO, App Builder",
-    review: "App Builder saved us thousands in dev costs. It's like magic.",
+    avatar: "/our/image.png",
+    name: "Hussain",
+    title: "student",
+    review: "Mr. Fawas explained crypto basics and strategies so clearly. Helped me understand market news, valuations, and investments with ease.",
   },
   {
     id: 3,
-    avatar: "images/avatar/avatar-2.png",
-    name: "John Smith",
-    title: "Lorem Ipsum",
+    avatar: "/our/image.png",
+    name: "Teja",
+    title: "student",
     review:
-      "Discover the ultimate solution designed specifically for agencies and freelancers.",
+      "Delta Trading Team’s course was exceptional. Clear teaching, practical strategies, and strong support boosted my trading confidence. Highly recommended!",
   },
   {
     id: 4,
-    avatar: "images/avatar/avatar-3.png",
-    name: "Sarah Johnson",
-    title: "Tech Solutions",
+    avatar: "/our/image.png",
+    name: "Sachin",
+    title: "student",
     review:
-      "The platform exceeded our expectations. Highly recommended for any business.",
+      "Good support and guidance. Truly appreciated the efforts and dedication.",
   },
   {
     id: 5,
-    avatar: "images/avatar/avatar-4.png",
-    name: "Mike Davis",
-    title: "Digital Agency",
-    review: "Incredible performance and user experience. Game changer!",
+    avatar: "/our/image.png",
+    name: "Hussain",
+    title: "student",
+    review: "Mr. Fawas explained crypto basics and strategies so clearly. Helped me understand market news, valuations, and investments with ease.",
   },
+  {
+    id: 6,
+    avatar: "/our/image.png",
+    name: "Teja",
+    title: "student",
+    review: "Delta Trading Team’s course was exceptional. Clear teaching, practical strategies, and strong support boosted my trading confidence. Highly recommended!",
+  },
+ 
 ];
 
 const Testimonials = () => {
@@ -55,15 +84,14 @@ const Testimonials = () => {
             data-delay="0.2"
             className="max-w-[750px] mx-auto mb-4 max-[426px]:mb-3"
           >
-            Real apps. Real results.
+           What Our Students Say
           </h2>
           <p
             data-ns-animate
             data-delay="0.3"
             className="max-w-[490px] max-[426px]:text-tagline-2 max-[426px]:max-w-[320px]"
           >
-            "Real apps. Real results. Nextsaas delivered our entire platform ahead of
-            schedule—flawless execution and real partnership."
+           Join thousands of successful students who have transformed their careers with our cutting-edge crypto education.
           </p>
         </div>
 
@@ -73,9 +101,9 @@ const Testimonials = () => {
             <div className="swiper-wrapper">
               {testimonials.map((t) => (
                 <div key={t.id} className="swiper-slide">
-                  <div className="bg-background-2 dark:bg-background-5 rounded-[20px] relative overflow-hidden p-8 flex flex-col gap-y-8 z-0 mx-1 sm:mx-0">
+                  <div className="bg-background-2 dark:bg-[#0D0B07] rounded-[20px] relative overflow-hidden p-8 flex flex-col gap-y-8 z-0 mx-1 sm:mx-0">
                     {/* Gradient Overlay */}
-                    <div className="absolute max-md:w-[350px] max-md:h-[300px] -left-[180px] -top-[180px] md:-left-[190px] md:-top-[190px] lg:-left-[150px] lg:-top-[150px] xl:-left-[220px] xl:-top-[220px] w-full h-full -z-10 opacity-0 transition-opacity duration-300 gradient-overlay select-none pointer-events-none">
+                    <div className="absolute max-md:w-[350px] max-md:h-[300px] -left-[180px] -top-[180px] md:-left-[190px] md:-top-[190px] lg:-left-[150px] lg:-top-[150px] xl:-left-[220px] xl:-top-[220px] w-full h-full -z-10 opacity-0 transition-opacity duration-300 gradient-overlay  select-none pointer-events-none">
                       <img
                         src="images/gradient/gradient-9.png"
                         alt="Decorative gradient background overlay"
@@ -115,7 +143,7 @@ const Testimonials = () => {
             href="testimonial-page-01.html"
             className="btn btn-md btn-secondary dark:btn-transparent hover:btn-white w-full sm:w-auto"
           >
-            <span>View all reviews</span>
+            <span>Get Started</span>
           </a>
         </div>
       </div>

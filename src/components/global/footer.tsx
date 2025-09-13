@@ -3,13 +3,24 @@ import React from "react";
 
 // Social links data
 const socialLinks = [
-  { name: "Facebook", icon: "images/icons/facebook.svg" },
   { name: "Instagram", icon: "images/icons/instagram.svg" },
   { name: "Youtube", icon: "images/icons/youtube.svg" },
   { name: "LinkedIn", icon: "images/icons/linkedin.svg" },
   { name: "Dribbble", icon: "images/icons/dribbble.svg" },
   { name: "Behance", icon: "images/icons/behance.svg" },
 ];
+
+// {
+//   icon: <IoLogoWhatsapp />,
+//   href: "https://wa.link/z7re0z"
+// },  {
+//   icon: <Mail />,
+//   href: "mailto:web3DeCodeds@gmail.com"
+// },
+// {
+//   icon: <Instagram />,
+//   href: "https://www.instagram.com/web3_decoded?igsh=MXdtdzdxemJzM2swbA%3D%3D&utm_source=qr"
+// },
 
 // Footer menu data
 const footerMenus = [
@@ -23,28 +34,33 @@ const footerMenus = [
     ],
   },
   {
-    title: "Support",
+    title: "Social Links",
     links: [
-      { name: "FAQ", href: "faq-page.html" },
-      { name: "Documentation", href: "documentation-page.html" },
-      { name: "Tutorial", href: "learn-page.html" },
-      { name: "Support", href: "support-page.html" },
+      { name: "WhatsApp", href: "https://wa.link/z7re0z" },
+      { name: "Email", href: "mailto:web3DeCodeds@gmail.com" },
+      {
+        name: "Instagram",
+        href: "https://www.instagram.com/web3_decoded?igsh=MXdtdzdxemJzM2swbA%3D%3D&utm_source=qr",
+      },
     ],
   },
   {
-    title: "Legal Policies",
+    title: "Courses",
     links: [
-      { name: "Terms & Conditions", href: "terms-conditions-page.html" },
-      { name: "Privacy Policy", href: "privacy-page.html" },
-      { name: "Refund Policy", href: "refund-policy-page.html" },
-      { name: "GDPR Compliance", href: "gdpr-page.html" },
-      { name: "Affiliate Policy", href: "affiliate-policy-page.html" },
+      {
+        name: "Crypto Mania",
+        href: "#",
+      },
+      {
+        name: "Crypto Mastery",
+        href: "#",
+      },
     ],
   },
 ];
 
 export const Footer = () => (
-  <footer className="bg-secondary dark:bg-background-8 relative overflow-hidden">
+  <footer className="bg-secondary dark:bg-background-9 rounded-t-3xl  relative overflow-hidden">
     {/* gradients */}
     {/* <figure    style={{filter:"hue-rotate(187deg) !important"}} className="pointer-events-none select-none absolute size-[550px] top-[-17%] md:top-[-25%] xl:top-[-32%] max-[376px]:right-[-83%] right-[-64%] md:right-[-30%] lg:right-[-19%] xl:right-[-9%] bg-top-right rotate-[-30deg]">
       <img
@@ -71,11 +87,9 @@ export const Footer = () => (
               <img src="/our/logo.png" alt="NextSass Logo" />
             </figure>
             <p className="text-accent/60 font-normal text-tagline-1 mt-4 mb-7">
-              Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
+              The leading platform for blockchain and cryptocurrency education.
             </p>
-            <div className="flex items-center gap-3">
-      
-            </div>
+            <div className="flex items-center gap-3"></div>
           </div>
         </div>
 
@@ -84,13 +98,13 @@ export const Footer = () => (
           {footerMenus.map((menu, idx) => (
             <div key={menu.title} className="col-span-12 md:col-span-4">
               <div className="space-y-8">
-                <p className="sm:text-heading-6 text-tagline-1 font-normal text-primary-50">
+                <p className="sm:text-heading-6 text-tagline-1 font-normal text-ns-green">
                   {menu.title}
                 </p>
-                <ul className="sm:space-y-5 space-y-3">
+                <ul className="sm:space-y-5 text-white/60 space-y-3">
                   {menu.links.map((link) => (
-                    <li key={link.name}>
-                      <a href={link.href} className="footer-link">
+                    <li style={{color:""}} key={link.name}>
+                      <a href={link.href} className="footer-link text-white/50">
                         {link.name}
                       </a>
                     </li>
@@ -112,6 +126,5 @@ export const Footer = () => (
     </div>
 
     {/* Theme Toggle */}
-  
   </footer>
 );
