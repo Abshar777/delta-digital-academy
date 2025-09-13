@@ -28,7 +28,7 @@ export default function RootLayout({
       <Heade />
       <body
         suppressHydrationWarning
-        className="bg-background-2 dark dark:bg-background-5"
+        className="bg-background-2 dark dark:bg-background-5 tt-transition tt-lightmode-on tt-noise tt-magic-cursor tt-smooth-scroll"
       >
         <Indexlayout>{children}</Indexlayout>
         <Scripts />

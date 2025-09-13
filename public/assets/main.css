@@ -187,6 +187,65 @@
   --color-split-text: #fcfcfc;
 }
 
+
+#tt-page-transition {
+	display: none;
+}
+body.tt-transition #tt-page-transition {
+	position: relative;
+	display: block;
+	z-index: 99999;
+}
+
+/* Transition overlay */
+body.tt-transition .tt-ptr-overlay-top {
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100vh;
+	height: 100svh;
+	background-color: #0B0705;
+	z-index: 1;
+}
+body.tt-transition .tt-ptr-overlay-bottom {
+	position: fixed;
+	display: block;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100vh;
+	height: 100svh;
+	background-color: #0B0705;
+	z-index: 1;
+}
+
+body.tt-transition .tt-ptr-preloader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+}
+
+body.tt-transition .tt-ptr-prel-content {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-weight: 600;
+	color: #444;
+}
+
+.tt-ptr-prel-image {
+	/* scale: 5; */
+	/* transform: translate(10px, 0px); */
+	/* filter: grayscale(1) brightness(12.5); */
+	max-height: 72px; /* You may need to change the img height to match your logo type! */
+	/* opacity: .7; You may need to change the opacity as well! */
+}
+
 @font-face {
   font-family: next-sass;
   src: url("../fonts/next-sass8d53.eot?obdk3g");

@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect, Suspense } from "react";
+
 
 const Hero = () => {
   const shapes = [
@@ -67,6 +69,14 @@ const Hero = () => {
       parallax: { value: "1.7", x: "0.5", y: "-1" },
     },
   ];
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
 
   return (
     <section

@@ -26,6 +26,17 @@ const Scripts = () => {
       "/vendor/number-counter.js",
       "/vendor/stack-card.min.js",
       "/assets/main.js",
+      "/assets/vendor/jquery/jquery.min.js",
+      "/assets/vendor/gsap/gsap.min.js",
+      "/assets/vendor/gsap/ScrollToPlugin.min.js",
+      "/assets/vendor/gsap/ScrollTrigger.min.js",
+      "/assets/vendor/lenis.js",
+      "/assets/vendor/isotope/imagesloaded.pkgd.min.js",
+      "/assets/vendor/isotope/isotope.pkgd.min.js",
+      "/assets/vendor/isotope/packery-mode.pkgd.min.js",
+      "/assets/vendor/fancybox/js/fancybox.umd.js",
+      "/assets/vendor/swiper/js/swiper-bundle.min.js",
+      "/assets/theme.js",
    
     ];
 
