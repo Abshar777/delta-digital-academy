@@ -80,6 +80,7 @@ const ContactSection: React.FC = () => {
   
   return (
     <section
+    id="contact"
       className="pt-10 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px]"
       aria-label="Contact Information and Form"
     >

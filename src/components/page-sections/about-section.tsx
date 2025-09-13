@@ -24,7 +24,7 @@ const avatars = [
 
 const Section = () => {
   return (
-    <section className="relative pt-20 md:pt-[100px] lg:pt-[160px] xl:pt-[200px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] bg-background-3 dark:bg-background-6 max-sm:pt-10 max-sm:pb-10">
+    <section id="about" className="relative pt-20 md:pt-[100px] lg:pt-[160px] xl:pt-[200px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] bg-background-3 dark:bg-background-6 max-sm:pt-10 max-sm:pb-10">
       <div className="main-container flex flex-col gap-[70px]">
         {/* Header */}
         <div className="flex flex-col items-center text-center gap-y-4">
@@ -72,7 +72,11 @@ const Section = () => {
                 What We Provide for Students
                 </h5>
                 <a
-                  href="#"
+                  onClick={() => {
+                    if(typeof window !== "undefined"){
+                      window.location.href = "https://wa.link/z7re0z";
+                    }
+                  }}
                   className="btn btn-md btn-white hover:btn-white-dark"
                 >
                   <span>Get started</span>

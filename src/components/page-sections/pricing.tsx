@@ -103,7 +103,7 @@ const pricingPlans = [
   const Pricing = () => {
     const router=useRouter()
     return (
-      <section className="relative py-20 lg:py-32 bg-background">
+      <section id="pricing" className="relative py-20 lg:py-32 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-16">

@@ -78,7 +78,7 @@ const Service = () => {
     
   ];
   return (
-    <section className="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
+    <section id="services" className="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
       <div className="main-container">
         <div className="text-center space-y-3 mb-14 md:mb-[70px]">
           <span
@@ -121,7 +121,11 @@ const Service = () => {
                 </p>
                 <div className="flex items-center justify-start">
                   <a
-                    href="#"
+                    onClick={() => {
+                      if(typeof window !== "undefined"){
+                        window.location.href = "https://wa.link/z7re0z";
+                      }
+                    }}
                     className="btn btn-md btn-accent block md:inline-block dark:btn-white-dark w-full md:w-auto dark:hover:btn-accent hover:btn-secondary"
                   >
                     <span>Start Learning</span>

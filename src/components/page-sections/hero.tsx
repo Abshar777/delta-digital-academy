@@ -158,7 +158,11 @@ const Hero = () => {
             /> */}
 
             <button
-              type="submit"
+              onClick={() => {
+                if(typeof window !== "undefined"){
+                window.location.href = "https://wa.link/z7re0z";
+                }
+              }}
               className="btn btn-xl btn-primary flex items-center justify-center w-[90%] md:w-auto h-12"
             >
               <span>Get started</span>

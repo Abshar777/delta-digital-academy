@@ -3,9 +3,10 @@ import React from "react";
 
 const navItems = [
   { name: "Home", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Services", href: "#" },
-  { name: "Contact Us", href: "contact-us-page.html", isButton: true },
+  { name: "About", href: "#about" },
+  { name: "Services", href: "#services" },
+  { name: "Pricing", href: "#pricing" },
+  { name: "Contact Us", href: "#contact", isButton: true },
 ];
 
 const Nav = () => {
@@ -69,7 +70,7 @@ const Nav = () => {
         {/* CTA */}
         <div className="xl:flex hidden items-center justify-center">
           <a
-            href="signup-page-01.html"
+            href="https://wa.link/z7re0z"
             className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white"
           >
             <span>Get started</span>
@@ -79,7 +80,7 @@ const Nav = () => {
         {/* Mobile Menu Button */}
         <div className="xl:hidden block">
         <a
-            href="signup-page-01.html"
+            href="https://wa.link/z7re0z"
             className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white"
           >
             <span>Get started</span>
