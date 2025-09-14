@@ -34,7 +34,6 @@ const pricingPlans = [
         { text: "Technical analysis", active: true },
         { text: "Exclusive chart patterns for crypto market", active: true },
         { text: "Money management and trading psychology", active: true },
-        { text: "Single Payment", active: true },
         { text: "24/7 Support", active: true },
         
       ],
