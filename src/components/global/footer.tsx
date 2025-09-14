@@ -48,7 +48,7 @@ const footerMenus = [
     title: "Courses",
     links: [
       {
-        name: "Crypto Mania",
+        name: "Crypto Genesis",
         href: "#",
       },
       {
