@@ -40,7 +40,7 @@ const footerMenus = [
       { name: "Email", href: "mailto:web3DeCodeds@gmail.com" },
       {
         name: "Instagram",
-        href: "https://www.instagram.com/web3_decoded?igsh=MXdtdzdxemJzM2swbA%3D%3D&utm_source=qr",
+        href: "https://www.instagram.com/delta_blockchain_academy?",
       },
     ],
   },

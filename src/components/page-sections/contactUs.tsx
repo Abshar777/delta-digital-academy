@@ -31,10 +31,10 @@ const contactInfo: ContactInfoItem[] = [
   {
     id: 3,
     title: "Call Us",
-    description: "+391 (0)35 2568 4593",
+    description: "+971 56 324 2996",
     icon: "images/icons/phone-right.svg",
     overlay: "images/gradient/gradient-6.png",
-    link: "tel:+391035256845933",
+    link: "tel:+971563242996",
   },
 ];
 
