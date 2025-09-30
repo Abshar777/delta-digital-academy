@@ -7,13 +7,7 @@ import { Footer } from "../global/footer";
 import Preloader from "./preloader"
 
 const Indexlayout = ({ children }: { children: React.ReactNode }) => {
-  const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
   return (
     <>
     <Preloader/>

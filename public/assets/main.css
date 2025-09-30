@@ -187,6 +187,9 @@
   --color-split-text: #fcfcfc;
 }
 
+body{
+  background-color: #0D0B07;
+}
 
 #tt-page-transition {
 	display: none;

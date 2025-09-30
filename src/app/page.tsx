@@ -15,11 +15,7 @@ import Pricing from "@/components/page-sections/pricing";
 import ContactSection from "@/components/page-sections/contactUs";
 
 export default function Home() {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-  if (!mounted) return null;
+
   return (
  <>
  <Hero/>
